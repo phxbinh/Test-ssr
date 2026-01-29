@@ -1,0 +1,16 @@
+{
+  "name": "vdom-hooks-neon-todo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.5"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
+  }
+}
