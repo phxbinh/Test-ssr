@@ -2,7 +2,7 @@
 import { TodoApp } from "../src/app/pages/TodoApp.js";
 import { fetchTodos } from "../src/shared/api.js";
 import { queryClient } from "../src/framework/query.js";
-const { renderToString } = window.App.Vdom;
+const { renderToString } = window.App.VDOM;
 
 export default async function handler(req, res) {
   // chỉ SSR route /
