@@ -1,4 +1,4 @@
-const { h } = window.App.Vdom;
+const { h } = window.App.VDOM;
 
 /**
  * renderToString(Component)
